@@ -70,4 +70,4 @@ As tabelas foram criadas **na ordem de dependência** (independentes → 1 FK �
 
 ## 👥 Integrantes
 
-- Christian hugo Ferreira
+- Christian Hugo Ferreira
