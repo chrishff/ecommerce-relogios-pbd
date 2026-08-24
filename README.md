@@ -12,7 +12,7 @@ Origem dos Dados → Aplicação → Banco de Dados → Consumo dos Dados
 
 Esse diagrama representa o fluxo macro do sistema — diferente do DER, que detalha a estrutura interna das tabelas do banco.
 
-![Diagrama de Arquitetura de Dados](E:\Faculdade\DBS\DAD.png)
+![Diagrama de Arquitetura de Dados](imagens\DAD.png)
 
 ## 🧩 Modelagem — Diagrama Entidade-Relacionamento (DER)
 
@@ -33,7 +33,7 @@ O banco é composto por **8 tabelas relacionadas**, organizadas em 3 níveis de 
 
 A decisão de modelagem mais importante foi separar **Pedidos** de **ItensPedido**: sem essa tabela intermediária, cada pedido só poderia conter um único relógio. Com ela, um cliente pode comprar vários relógios em uma mesma compra, refletindo o funcionamento real de um e-commerce.
 
-![DER do banco de dados](E:\Faculdade\DBS\DER.png)
+![DER do banco de dados](imagens\DER.png)
 
 ## 🗃️ Scripts SQL
 
